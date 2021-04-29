@@ -1,0 +1,88 @@
+/* Specifity */
+/* just by default */
+/* global reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*
+#id -> use a hashtag with id 
+.classes -> Use a dot with classes
+
+selector {
+    CSS DECLARATION
+    PROPERTY: VALUE;
+}
+*/
+
+body {
+  font-family: sans-serif;
+  /* max-width - setting a limit how far it can go */
+  max-width: 1400px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  /* setting a fixed height */
+  /* height: 80px; */
+  padding: 40px;
+  color: rgb(94, 92, 89);
+}
+
+h1 {
+  font-size: 200px;
+}
+/* below more specific */
+
+header h1 {
+  font-size: 40px;
+}
+
+.card {
+  width: 300px;
+  /* height is set by default */
+  height: auto;
+  border: 5px solid gray;
+  border-radius: 5px;
+  /* text align also works with images */
+  text-align: center;
+  background-color: #eee;
+  color: midnightblue;
+  padding: 20px;
+  opacity: 0.7;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+.card img {
+  margin: 10px;
+  min-height: 300px;
+  border-radius: 5px;
+}
+
+/* chain elements together , */
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+/* select id's # */
+
+#penelope-list {
+  list-style-type: none;
+}
+
+a,
+a:active,
+a:visited {
+  color: brown;
+}
